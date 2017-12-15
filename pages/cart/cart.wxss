@@ -1,0 +1,136 @@
+/* pages/cart/cart.wxss */
+.cartMain{
+ margin-bottom: 120rpx;
+}
+.cart-image{
+  width: 180rpx;
+  height: 200rpx;
+  float: left;
+  padding: 15rpx 10rpx;
+}
+.cart-box{
+  width: 100%;
+  height: 235rpx;
+  background: white;
+  /* margin-top: 15rpx; */
+  border-bottom: 1px solid #ccc;
+  /* padding-left: 60rpx; */
+}
+.cart-boxtwo{
+  display: flex;
+  flex-direction:column;
+  
+}
+.left_imgae{
+  float: left;
+}
+.left_box{
+  float: left;
+  margin-top: 20rpx;
+  line-height: 60rpx
+}
+.cart-title{
+  margin-top: 30rpx;
+  font-family: "微软雅黑";
+  font-size: 30rpx;
+}
+.cart-price{
+  display: flex;
+  color: red;
+  font-size: 30rpx
+}
+.left{
+  float: left;
+}
+.right image{
+  width: 50rpx;
+  height: 50rpx;
+  float: right;
+  margin-right: 30rpx;
+  margin-top: 30rpx;
+}
+.input{
+  display: block;
+  width: 65rpx;
+  height: 65rpx;
+  line-height: 65rpx;
+  text-align: center;
+  /* border: 1px solid red; */
+  float: left;
+}
+.cart-add{
+  border-left: none;
+  background: #FBFBFB;
+}
+.cart-reduce{
+  border-right: none;
+  background: #FBFBFB;
+}
+.cart-text{
+  width: 90rpx;
+  background: #F4F4F4;
+  font-size: 30rpx;
+}
+.cart-bottom{
+  position: fixed;
+  width: 100%;
+  height: 87rpx;
+  bottom:0;
+  background: white;
+}
+.yuan{
+  display: block;
+  width: 50rpx;
+  height: 50rpx;
+  border-radius: 50%;
+  border: 1px solid red;
+}
+.icon{
+  float: left;
+  margin: 85rpx 20rpx;
+}
+.SpCart{
+  display: block;
+  width: 300rpx;
+  height: 300rpx;
+}
+.Sptext{
+  font-size: 30rpx;
+}
+.cart-icon{
+  margin:18rpx 20rpx;
+  float: left;
+}
+.cart-sum{
+  width: 300rpx;
+  height: 100%;
+  line-height: 87rpx;
+  /* background: red; */
+  float: right;
+  text-align: center;
+}
+.cart-pay{
+  width: 230rpx;
+  height: 100%;
+  background: #405F80;
+  float: right;
+}
+.cart_pay{
+  display: block;
+  line-height: 87rpx;
+  text-align: center;
+  font-size: 30rpx;
+  color: white;
+}
+.sum_color{
+  color: red;
+  font-size: 25rpx;
+}
+.sum_text{
+  font-size: 30rpx;
+}
+.checkAll{
+  line-height: 87rpx;
+  font-size: 28rpx;
+}
+

@@ -1,0 +1,34 @@
+.My-Main{
+  width: 100%;
+  height: 180rpx;
+  background: white;
+  margin-top: 15rpx;
+}
+.UserImage{
+  display: block;
+  width: 143rpx;
+  height: 143rpx;
+  float: left;
+  margin: 20rpx
+}
+.Username{
+  font-size: 30rpx;
+  margin-top: 12rpx;
+  float: left;
+  line-height: 143rpx
+}
+.My-MainThree{
+  height: 110rpx;
+  line-height: 110rpx;
+  font-size: 30rpx;
+  background: white;
+  border-top: 1px solid #ccc;
+  padding-left: 20rpx
+}
+.My-MainThree image{
+  display: block;
+  width:50rpx;
+  height:50rpx;
+  float: right;
+  padding: 30rpx
+}

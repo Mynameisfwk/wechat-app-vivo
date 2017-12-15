@@ -1,0 +1,10 @@
+page{
+  background: white
+}
+.AboutMe{   
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 35rpx;
+  margin-top: 20rpx;
+}

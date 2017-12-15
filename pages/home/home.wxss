@@ -1,0 +1,56 @@
+swiper{
+  width: 100%;
+  height: 500rpx;
+}
+
+image{
+  width: 100%;
+  height: 100%;
+}
+.left{
+  float: left;
+}
+.main_boxtwo{
+  width: 50%;
+  height: 480rpx;
+  background: white;
+  box-sizing: border-box;
+  border-top: 1px solid #CECECE;
+  border-right: 1px solid #CECECE;
+  float: left;
+  font-family: "微软雅黑"
+}
+.main-image{
+  width: 220rpx;
+  height: 210rpx;
+  display: block;
+  margin: 50rpx auto;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+.main-title{
+  font-size: 30rpx;
+  font-weight: 800;
+}
+.main-titleTwo{
+  font-size: 23rpx;
+  margin-top: 10rpx;
+}
+.main-price{
+  font-size: 30rpx;
+  margin-top: 20rpx;
+  color: red;
+}
+.boxTwo{
+  width: 100%;
+  height: 80rpx;
+  line-height: 80rpx;
+  background: white;
+  font-size: 30rpx;
+  padding-left: 10rpx;
+  font-family: "微软雅黑"
+}

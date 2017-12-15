@@ -1,0 +1,162 @@
+/* pages/home/home-details/pay.wxss */
+
+.pay-Bottom{
+  width: 100%;
+  height: 105rpx;
+  line-height: 105rpx;
+  background: #1AAD19;
+  position: fixed;
+  bottom: 0;
+  color: white;
+  font-size: 32rpx;
+  text-align: center
+}
+
+.pay-main{
+  width: 100%;
+  height: 250rpx;
+  background: white;
+}
+.main-one{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #ccc;
+  font-size: 30rpx;
+  padding-left: 25rpx;
+}
+ .main-image{
+  display: block;
+  width:160rpx;
+  height:140rpx;
+  float: left;
+  padding: 15rpx 15rpx
+}
+.main_left{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin-top: 30rpx;
+}
+.main_right{
+  float: right;
+  font-size: 32rpx;
+  margin: 18rpx 20rpx;
+}
+.main-title{
+  display: flex;
+  font-size: 30rpx;
+}
+.main-price{
+  font-size: 30rpx;
+  color: red;
+}
+.pay-main{
+  margin-bottom: 10rpx;
+}
+
+.pay-mainTwo{
+  width: 100%;
+  height: 200rpx;
+  background: white;
+  margin-top: 13rpx;
+  margin-bottom: 13rpx;
+}
+
+.mianTwo-one{
+  height: 100rpx;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  padding-left: 25rpx;
+  border-bottom: 1px solid #ccc;
+}
+.mianTwo-two{
+  line-height: 100rpx;
+}
+.array{
+  line-height: 100rpx;
+  font-size: 30rpx;
+  padding-left: 25rpx;
+  color: #808080;
+}
+.array image{
+  width: 40rpx;
+  height: 40rpx;
+  padding-top: 28rpx;
+  padding-right: 12rpx;
+  float: right;
+}
+
+.pay-mainThree{
+  width: 100%;
+  height: 170rpx;
+  background: white;
+}
+
+.mainThree-one{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #ccc;
+  font-size: 30rpx;
+  padding-left: 25rpx;
+}
+.mainThree-two{
+  height: 85rpx;
+}
+.mainThree-two input{
+  padding-left: 25rpx;
+  font-size: 30rpx;
+  height: 85rpx;
+  line-height: 85rpx
+}
+.pay-mainFive{
+  width: 100%;
+  height: 210rpx;
+  background: white;
+  margin-top: 13rpx
+}
+.mainFive-one{
+  height: 80rpx;
+  line-height: 80rpx;
+  border-bottom: 1px solid #ccc;
+}
+.mainFive-one .left{
+  float: left;
+  padding-left: 25rpx;
+  font-size: 30rpx;
+}
+.mainFive-one .right{
+  float: right;
+  color: red;
+  font-size: 30rpx;
+  padding-right: 20rpx
+}
+.mainFive-two{
+  height: 80rpx;
+  line-height: 80rpx;
+}
+.mainFive-two .left{
+  float: left;
+  padding-left: 25rpx;
+  font-size: 25rpx;
+}
+.mainFive-two .right{
+  float: right;
+  /* color: #ccc; */
+  font-size: 25rpx;
+  padding-right: 20rpx
+}
+.mainFive-three{
+  height: 14rpx;
+  line-height: 14rpx;
+}
+.mainFive-three .left{
+  float: left;
+  font-size: 25rpx;
+  padding-left: 25rpx;
+}
+.mainFive-three .right{
+  float: right;
+  color: red;
+  font-size: 30rpx;
+  padding-right: 20rpx
+}

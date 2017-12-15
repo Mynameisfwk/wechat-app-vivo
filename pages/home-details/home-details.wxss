@@ -1,0 +1,130 @@
+
+page{
+  background: white;
+}
+swiper {
+  width: 100%;
+  height: 700rpx;
+  background: white;
+}
+
+.slide-image {
+  display: block;
+  margin: 80rpx auto;
+  width: 540rpx;
+  height: 500rpx;
+}
+.box {
+  width: 100%;
+  height: 100rpx;
+  background: white;
+  border-top:3rpx solid  #ccc;
+  border-bottom:3rpx solid  #ccc;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 30rpx;
+  margin-top: 15rpx;
+  padding-left: 15rpx;
+}
+
+.price {
+  color: red;
+  font-size: 30rpx;
+  padding-left: 15rpx;
+}
+
+.dibu {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0rpx;
+}
+
+.left {
+  width: 50%;
+  height: 100%;
+  background: #ff9800;
+  float: left;
+}
+
+.right {
+  width: 50%;
+  height: 100%;
+  background: #e3211e;
+  float: left;
+}
+
+.text {
+  display: block;
+  color: white;
+  line-height: 100rpx;
+  text-align: center;
+  font-size: 25rpx;
+}
+
+.nav {
+  width: 700rpx;
+  height: 70rpx;
+  background:#F8F8F8;
+  margin: auto;
+  display: flex;
+  border-radius: 5px;
+  border: 1px solid  #AEAEAE;
+}
+.boxtwo{
+  margin-bottom: 85rpx;
+}
+.default {
+  width: 100%;
+  line-height: 70rpx;
+  text-align: center;
+  border-right: 1px solid #AEAEAE;
+  color: #AEAEAE;
+  font-weight: bold;
+  margin: auto;
+  font-size: 28rpx;
+}
+
+.red {
+  width: 700rpx;
+  line-height: 70rpx;
+  text-align: center;
+  background: red;
+  color: white;
+  border-right: 1px solid #AEAEAE;
+  font-weight: bold;
+  font-size: 28rpx;
+}
+
+.boxtwo-tab-nav{
+    display: inline-block;
+    width: 50%;
+    height: 90rpx;
+    line-height: 90rpx;
+    border-bottom: 1rpx solid #ededed;
+    box-sizing: border-box;
+    text-align: center;
+    color: black;
+    font-size: 30rpx
+}
+.on{
+    color:#405F80;
+    border-bottom: 5rpx solid #405F80;
+}
+.img_one{
+  margin-top: 1rpx;
+}
+.boxtwo_image{
+  width: 100%;
+  height: auto;
+  display: block;
+  
+}
+.product{
+  font-size: 30rpx;
+  margin:  50rpx auto;
+  text-align: center;
+}

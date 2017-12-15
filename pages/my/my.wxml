@@ -1,0 +1,15 @@
+<view>
+  <view class='My-Main'>
+      <image src="{{UserImage}}" class="UserImage"></image>
+      <text class="Username">{{Username}}</text>
+  </view>
+
+  <view class='My-MainTwo'>
+
+  </view>
+  
+  <view class='My-MainThree' bindtap='about'>
+      <text>关于作者</text>
+      <image src='/image/right.png'></image>
+  </view>
+</view> 
