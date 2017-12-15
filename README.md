@@ -54,6 +54,67 @@ Page({
 
 ```
 
+## 加入购物车
+```bash
+var json = require('../../data/Home_data.js')
+
+Page({
+  data:{
+    HomeIndex:0
+  },
+  goPay:function(e){
+    var Id = e.currentTarget.dataset.id
+    wx.navigateTo({
+      url: '../../pages/pay/pay?id=' + Id
+    })
+  },
+  boxtwo: function (e) {
+    var index = parseInt(e.currentTarget.dataset.index) 
+    this.setData({
+      HomeIndex: index
+    })
+  },
+  addcart: function (e) {
+    var cartItems = wx.getStorageSync("cartItems") || []
+    var exist = cartItems.find(function (el) {
+      return el.id == e.target.dataset.id
+    })
+
+    //如果购物车里面有该商品那么他的数量每次加一
+    if (exist){
+      exist.value = parseInt(exist.value) + 1
+    }else{
+      cartItems.push({
+        id: e.target.dataset.id,
+        title:e.target.dataset.title,
+        image: e.target.dataset.image,
+        price: e.target.dataset.price,
+        value:1,
+        selected:true
+      })
+    }
+
+    wx.showToast({
+      title: "加入购物车成功！",
+      duration: 1000
+    })
+        
+    //更新缓存数据
+    wx.setStorageSync("cartItems", cartItems)
+
+  },
+
+  onLoad: function (option){
+    var homeid = option.id
+    var Homedata = json.homeIndex[homeid];
+    this.setData({
+      data: Homedata
+    })
+  }
+
+})
+
+```
 
 ## 购物车功能
 
@@ -191,49 +252,3 @@ Page({
 })
 
 ```
-
-## 底部导航
-```bash
-{
-  "pages": [
-    "pages/home/home",
-    "pages/my/my",
-    "pages/home-details/home-details",
-    "pages/cart/cart",
-    "pages/pay/pay",
-    "pages/about/about"
-  ],
-  "window": {
-    "navigationBarBackgroundColor": "#405F80"
-  },
-  "tabBar": {
-    "color": "#8a8a8a",
-    "selectedColor": "#405F80",
-    "borderStyle": "#CECECE",
-    "list": [
-      {
-        "selectedIconPath": "image/3.1首页-选中.png",
-        "iconPath": "image/3.1首页.png",
-        "pagePath": "pages/home/home",
-        "text": "首页"
-      },
-      {
-        "selectedIconPath": "image/3.1购物车-选中.png",
-        "iconPath": "image/3.1购物车.png",
-        "pagePath": "pages/cart/cart",
-        "text": "购物车"
-      },
-      {
-        "selectedIconPath": "image/3.1我的-选中.png",
-        "iconPath": "image/3.1我的.png",
-        "pagePath": "pages/my/my",
-        "text": "我的"
-      }
-    ]
-  },
-  "networkTimeout": {
-    "request": 10000,
-    "downloadFile": 10000
-  },
-  "debug": true
-}
