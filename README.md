@@ -7,7 +7,7 @@
 运行需要安装微信开发者工具，在开发者工具中打开该项目则可预览 [下载地址](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)</br>
 另外：微信小程序商城，欢迎大家踊跃 [提出建议](http://mail.qq.com/cgi-bin/qm_share?t=qm_mailme&email=dkRERU9AQ0FAQ0I2BwdYFRkb)
 
-## 目录结构
+## 目录结构 
 * data — 存放本地数据
 * image — 图片
 * pages — 项目页面文件
