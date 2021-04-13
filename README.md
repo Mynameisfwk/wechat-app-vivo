@@ -10,7 +10,7 @@
 ## 目录结构 
 * data — 存放本地数据
 * image — 图片
-* pages — 项目页面文件
+* pages — 项目页面文件 
 
 ## 项目截图
 ![](https://github.com/Mynameisfwk/wechat-app-vivo/blob/master/image/1.0.gif)
